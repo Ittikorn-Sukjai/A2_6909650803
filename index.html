@@ -10,7 +10,72 @@
 </head>
 
 <body>
+    <header class="bg-primary text-white text-center py-4 mb-4">
+        <h1>My Learning Portfolio</h1>
+        <p>CS100 Assignment 1</p>
+    </header>
 
+    <main class="container my-5">
+        <section id="about" class="mb-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                    <img src="media/profile.jpg" alt="My Profile Picture" class="img-fluid rounded-circle shadow"
+                        style="max-width: 200px;">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h2>About Me</h2>
+                    <p><strong>Name:</strong> Ittikorn Sukjai</p>
+                    <p><strong>Student ID:</strong> 6909650803</p>
+                    <p><strong>Program:</strong> Computer Science</p>
+                    <p>Hello, I am a first-year computer science student. I am passionate about technology and eager to
+                        learn web development to build useful applications in the future.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="what-i-built">
+            <h2>2. What I Built</h2>
+            <p>I have built a single-page Learning Portfolio website. The key components include a structured layout
+                using Semantic HTML elements such as header, main, section, and footer, styled with a separate CSS file.
+            </p>
+            <p><strong>Client or Server:</strong> When opening this website directly from my own machine, there is only
+                a <strong>Client</strong> (the web browser) involved. There is no web server running because the browser
+                is simply reading a local file from the hard drive via the <code>file://</code> protocol, rather than
+                requesting data over a network via HTTP/HTTPS.</p>
+        </section>
+
+        <section id="how-i-built-it">
+            <h2>3. How I Built It</h2>
+            <p>The development process consisted of the following key steps:</p>
+            <ol>
+                <li>Setting up the required project directory structure (HTML, CSS, and media folders).</li>
+                <li>Drafting the content and structuring it using HTML5 semantic tags.</li>
+                <li>Applying CSS to handle page layout, typography, and spacing.</li>
+            </ol>
+            <p>I used Visual Studio Code as my primary code editor and referenced <a
+                    href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> for HTML and CSS
+                properties.</p>
+        </section>
+
+        <section id="reflection">
+            <h2>4. Reflection</h2>
+            <ul>
+                <li><strong>Challenges faced:</strong> Organizing the layout and centering elements correctly was
+                    challenging at first. I handled this by reviewing CSS box model concepts and using margin properties
+                    effectively.</li>
+                <li><strong>What I learned:</strong> Doing this assignment gave me a much clearer understanding of how
+                    HTML structures the content and how CSS controls the visual presentation independently.</li>
+                <li><strong>Future improvements:</strong> If I were to continue developing this site, I would add CSS
+                    Flexbox or Grid for a more complex layout, and implement media queries to make the website
+                    responsive for mobile devices.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="text-center py-3 border-top">
+        <p>&copy; 2026 Ittikorn. CS100 Academic Year 1/2569.</p>
+    </footer>
 </body>
+
 
 </html>
