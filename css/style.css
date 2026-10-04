@@ -246,7 +246,9 @@ body {
     color: #111827;
 }
 
-
+/* ==========================================
+   Issue #12: Footer & Responsive Micro-details
+   ========================================== */
 .site-footer {
     background-color: #ffffff;
     border-color: var(--border-color) !important;
