@@ -62,7 +62,9 @@ body {
     font-size: 0.95rem;
 }
 
-/* Custom Card & Shadows */
+/* ==========================================
+   Issue #9: About Me Section & Avatar Setup
+   ========================================== */
 .custom-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
