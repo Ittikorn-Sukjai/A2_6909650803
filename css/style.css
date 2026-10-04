@@ -190,7 +190,9 @@ body {
     border: 1px solid #e5e7eb;
 }
 
-
+/* ==========================================
+   Issue #11: Reflection Boxes & Action Buttons
+   ========================================== */
 .reflection-container {
     background-color: #f9fafb;
     border: 1px solid #f3f4f6;
