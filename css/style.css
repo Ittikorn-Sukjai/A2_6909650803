@@ -1,4 +1,6 @@
-/* Design Variables */
+/* ==========================================
+   Issue #7: Base Typography & Color Variables
+   ========================================== */
 :root {
     --font-heading: 'Plus Jakarta Sans', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -19,7 +21,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Header Aesthetics */
+/* ==========================================
+   Issue #8: Header & Status Badge Layout
+   ========================================== */
 .site-header {
     background-color: #ffffff;
     border-color: var(--border-color) !important;
