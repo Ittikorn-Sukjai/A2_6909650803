@@ -72,17 +72,6 @@ body {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
-.portfolio-item {
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.portfolio-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
-    border-color: #d1d5db;
-}
-
-/* Profile Image Setup */
 .avatar-box {
     width: 160px;
     height: 160px;
@@ -96,7 +85,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Headings & Typography */
 .section-heading {
     font-family: var(--font-heading);
     font-weight: 700;
@@ -126,7 +114,19 @@ body {
     color: #374151;
 }
 
-/* Portfolio Details */
+/* ==========================================
+   Issue #10: Portfolio Cards & Tech Pills
+   ========================================== */
+.portfolio-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    border-color: #d1d5db;
+}
+
 .item-title {
     font-family: var(--font-heading);
     font-weight: 700;
@@ -144,7 +144,6 @@ body {
     color: #374151;
 }
 
-/* Tags & Badges */
 .count-tag {
     font-size: 0.8rem;
     font-weight: 600;
@@ -191,7 +190,7 @@ body {
     border: 1px solid #e5e7eb;
 }
 
-/* Reflection Box */
+
 .reflection-container {
     background-color: #f9fafb;
     border: 1px solid #f3f4f6;
@@ -213,7 +212,6 @@ body {
     margin-bottom: 4px;
 }
 
-/* Buttons */
 .action-btn {
     display: inline-block;
     text-decoration: none;
@@ -246,7 +244,7 @@ body {
     color: #111827;
 }
 
-/* Footer */
+
 .site-footer {
     background-color: #ffffff;
     border-color: var(--border-color) !important;
